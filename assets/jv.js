@@ -63,7 +63,7 @@ function toggleAnimationEleInWindow(element){
     if(!(rect.bottom < 0 || rect.top > heightScreen)){
         element.classList.add('start')
     }else{
-        // element.classList.remove('start')
+        element.classList.remove('start')
 
     }
 }

@@ -37,12 +37,6 @@
     .item-market-link {
         margin-right: 11px;
     }
-    .item-sub-cointrade {
-        /* display: none; */
-    }
-    .item-coin-trade{
-        /* display: none; */
-    }
     .item-coin-updown{
         margin-right:0 ;
     }
@@ -186,6 +180,10 @@
     .header__qrandapps{
         display: none;
     }
+    .technology-list{
+        display: block;
+    }
+    
 }
 /* mobile <=740px */
 @media (max-width: 741px){
@@ -200,6 +198,9 @@
         max-width: 115px;
         margin-left: 7px;
         margin-top: 8px;
+    }
+    .technology-list{
+        display: block;
     }
     
     .header__navbar-btn-login{

@@ -201,10 +201,7 @@ button.header__navbar-user-item-link.header__navbar-user-item-link--separate.js-
 .header__apps-link:nth-child(2){
     margin-right: 5px;
 }
-.header__apps-link{
 
-
-}
 
 .header__navbar{
     display: flex;
@@ -311,6 +308,9 @@ button.header__navbar-user-item-link.header__navbar-user-item-link--separate.js-
     border: 2px solid #385898;
 
 }
+div#intro{
+    height: 520px;
+}
 
 
 .market-search-btn:hover{
@@ -413,7 +413,8 @@ padding: 12px 12px;
 }
 .slider__halving{
     background :url('https://www.investopedia.com/thmb/US4m5w-KjA5g-dNkBdT0edrWmBY=/1600x960/filters:no_upscale():max_bytes(150000):strip_icc()/coinmetricsbtchalving-1aa1b4c4ddea47cfbe0439daf6e3626e.jpg')top center / cover no-repeat;
-    height: 520px;
+    height: 800px;
+    max-height: 1200px;
     width: 100%;
 
 }
@@ -494,10 +495,17 @@ padding: 12px 12px;
     background-color: rgb(59, 59, 59);
 
 }
+div#market{
+    display: flex;
+    justify-content: center;
+
+}
 
 .technology-list{
     padding-left: 50px;
     padding-right: 50px;
+    display: flex;
+    justify-content: center;
 
 }
 .technology-item{
@@ -1017,8 +1025,5 @@ margin-bottom: 20px;
 }
 .item-coin-trade-gari{
     margin-right: 110px;
-
-}
-.item-coin-updown-gari{
 
 }
