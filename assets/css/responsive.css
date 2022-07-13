@@ -183,6 +183,12 @@
     .technology-list{
         display: block;
     }
+    .slider__halving {
+        
+        background-size: contain;
+        height: 630px;
+        
+    }
     
 }
 /* mobile <=740px */
@@ -218,6 +224,13 @@
         margin-top: 6px;
         transform: translateX(-140px);
     }
+    div#intro {
+        height: 760px;
+    }
+    .slider__halving {
+        background-size: contain;
+        height: 220px;
+    }
     .header__navbar-item {
         display: none;
     }
@@ -226,10 +239,14 @@
     }
   
     .body__title{
-        margin-left: 10px;
+        margin-left: 30px;
         font-size: 1.3rem;
-        width: 200%;    transform: translateX(18px);
+        width: 150%;
+        transform: translateX(18px);
 
+    }
+    .button-scroll-icon{
+        display: block;
     }
     .body__description{
         margin-left: 10px;

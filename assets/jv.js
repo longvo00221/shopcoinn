@@ -18,7 +18,20 @@ modalContainer.addEventListener('click',function(event){
 })
 
 
+// scroll button on mobile app
+var myBtn = document.querySelector('.button-scroll-icon')
 
+function scrollbtn(){
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        myBtn.style.display ="block"
+    }else{
+        myBtn.style.display = "none"
+    }
+}
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 // scroll behavior
 const intro = document.querySelector('.content-section');
 const halving = document.querySelector('.content-section-2');
@@ -63,7 +76,7 @@ function toggleAnimationEleInWindow(element){
     if(!(rect.bottom < 0 || rect.top > heightScreen)){
         element.classList.add('start')
     }else{
-        element.classList.remove('start')
+        // element.classList.remove('start')
 
     }
 }
@@ -74,7 +87,7 @@ function checkAnimation(){
     })
 
 }
-window.onscroll = checkAnimation
+window.onscroll = checkAnimation , scrollbtn
 
 const logOut = document.querySelector('.js-log-out')
 const userInfo= document.querySelector('.js-user-logout')

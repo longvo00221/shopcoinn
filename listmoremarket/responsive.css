@@ -1,0 +1,127 @@
+@media (max-width: 741px){
+    
+    #header{
+        max-width: 100%;
+    }
+    .header__qrandapps{
+        display: none;
+    }
+    .header__navbar-logoimg {
+        max-width: 115px;
+        margin-left: 60px;
+        margin-top: 8px;     
+    }
+    .technology-list{
+        display: block;
+    }
+    
+    .header__navbar-btn-login{
+        transform: translateX(-135px);
+    }
+    .header__navbar-btn {
+        background-color: rgb(242, 158, 51);
+        border-radius: 99px;
+        color: #fff;
+        font-weight: 600;
+        margin-right: 50px;
+        padding: 5px 20px;
+        cursor: pointer;
+        display: none;
+        margin-top: 6px;
+        transform: translateX(-140px);
+    }
+    div#intro {
+        height: 760px;
+    }
+    .slider__halving {
+        background-size: contain;
+        height: 220px;
+    }
+    .header__navbar-item {
+        display: none;
+    }
+    .grid__column-non-content{
+        display: none;
+    }
+  
+    .body__title{
+        margin-left: 30px;
+        font-size: 1.3rem;
+        width: 150%;
+        transform: translateX(18px);
+
+    }
+    .button-scroll-icon{
+        display: block;
+    }
+    .body__description{
+        margin-left: 10px;
+        font-size: 0.8rem;
+        font-style: italic;
+        font-weight:400 ;
+        letter-spacing: 0.2rem;
+        transform: translateX(71px);
+
+    }
+    .body__button-img {
+        margin-left: 96px;
+        margin-top: 17px;
+    }
+    .body__connect {
+        display: none;
+
+    }
+    .grid__row {
+        height: 328px;
+    }
+    .member-item {
+
+        width: 50%;
+
+    }
+    .member-list {
+        height: 100px;
+    }
+    .list-market {
+        display: none;
+    }
+    .list-sub {
+        display: none;
+    }
+    .item-coin-trade {
+        display: none;
+    }
+    .list-coin {
+        margin: 10px 010px 0;
+        font-weight: 600;
+    }
+    .item-btn-purchase {
+        display: none;
+    }
+    .item-coin-updown {
+        display: none;
+    }
+    .item-coin-price {
+        margin-right: 0;
+    }
+    .market-search-btn{
+        display: none;
+    }
+    .market-search-btn-icon{
+        display: none;
+    }
+    .investor-img {
+        width: 104px;
+        height: 34px;
+    }
+    .more-no-content{
+        width: 40%;
+    }
+    .more-have-content{
+        width: 75%; 
+    }
+    .technology-list {
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+}
