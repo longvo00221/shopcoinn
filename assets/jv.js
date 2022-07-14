@@ -22,11 +22,14 @@ modalContainer.addEventListener('click',function(event){
 var myBtn = document.querySelector('.button-scroll-icon')
 
 function scrollbtn(){
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        myBtn.style.display ="block"
-    }else{
-        myBtn.style.display = "none"
-    }
+    var widthScreen =window.screen.width
+    if  (widthScreen < 720 ){
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            myBtn.style.display ="block"
+        }else{
+            myBtn.style.display = "none"
+        }
+    }else{}
 }
 function topFunction() {
     document.body.scrollTop = 0;
@@ -87,7 +90,11 @@ function checkAnimation(){
     })
 
 }
-window.onscroll = checkAnimation , scrollbtn
+window.onscroll =function(){
+    checkAnimation()
+    scrollbtn()
+
+}  
 
 const logOut = document.querySelector('.js-log-out')
 const userInfo= document.querySelector('.js-user-logout')

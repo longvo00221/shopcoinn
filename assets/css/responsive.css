@@ -192,6 +192,9 @@
         height: 630px;
         
     }
+    .header__qrandapps{
+        display: none;
+    }
     
 }
 /* mobile <=740px */
@@ -210,6 +213,9 @@
     }
     .technology-list{
         display: block;
+    }
+    .header__qrandapps{
+        display: none;
     }
     
     .header__navbar-btn-login{

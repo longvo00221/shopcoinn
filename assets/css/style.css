@@ -444,7 +444,7 @@ div#intro {
     cursor: pointer;
     position: fixed;
     z-index: 99;
-    transform: translate3d(290px, 395px, 10px);
+    transform: translate3d(290px, 450px, 10px);
     display: none;
 
 }

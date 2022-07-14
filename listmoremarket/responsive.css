@@ -1,3 +1,11 @@
+@media (min-width:740px) and (max-width:1024px){
+    .header__navbar{
+        margin-left: 50px;
+    }
+    .header__navbar-logoimg{
+        max-width: 200%;
+    }
+}
 @media (max-width: 741px){
     
     #header{
@@ -5,6 +13,9 @@
     }
     .header__qrandapps{
         display: none;
+    }
+    .header__navar{
+        margin-left: 50px;
     }
     .header__navbar-logoimg {
         max-width: 115px;
